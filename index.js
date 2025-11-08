@@ -33,7 +33,7 @@ res.send("hi this is your instagram")
 })
 
 app.get('/github',(req,res)=>{
-    res.json(github)
+    res.json(github.id)
 })
 
 app.listen(port, () => {
